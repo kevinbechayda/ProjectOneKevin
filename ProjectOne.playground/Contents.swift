@@ -32,8 +32,8 @@ var lengthOne = strOne.characters.count
 var lengthTwo = strTwo.characters.count
 
 
-var strOneLonger = lengthOne > lengthTwo
-if strOneLonger {
+var strOneLonger = "String one has more characters"
+if lengthOne > lengthTwo {
     print("String one has more characters")
 }
 else {
